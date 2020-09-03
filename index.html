@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-social/bootstrap-social.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link href="./style.css" rel="stylesheet" />
+    <title>Food</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Food Delivery</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="jumbotron jumbotron-fluid">
+      <div class="container-fluid text-center">
+        <div class="jubotron-heading">
+          <h1 class="display-3">
+            Say goodbye to
+            <span
+              class="txt-rotate"
+              data-period="2000"
+              data-rotate='[ "unsatisfied cravings.", "midnight hunger.", "boring food." ]'
+            ></span>
+          </h1>
+          <div class="jumbotron-text">
+            <p class="under-display-3 lead pb-4">
+              Order from your favourite restaurants at the comfort of your home.
+            </p>
+          </div>
+        </div>
+        <div class="searchbar">
+          <form class="searchform form-inline mr-auto">
+            <input
+              class="searchinput form-control mr-sm-2"
+              type="text"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <input
+              id="searchlanding"
+              type="submit"
+              class="btn btn-primary"
+              value="Submit"
+            />
+          </form>
+        </div>
+      </div>
+    </header>
+    <!-- <section class="content">
+      <div class="scrolling-wrapper-flexbox">
+        <div class="cards">
+          <h2>Card</h2>
+        </div>
+        <div class="cards">
+          <h2>Card</h2>
+        </div>
+        <div class="cards">
+          <h2>Card</h2>
+        </div>
+        <div class="cards">
+          <h2>Card</h2>
+        </div>
+        <div class="cards">
+          <h2>Card</h2>
+        </div>
+        <div class="cards">
+          <h2>Card</h2>
+        </div>
+        <div class="cards">
+          <h2>Card</h2>
+        </div>
+        <div class="cards">
+          <h2>Card</h2>
+        </div>
+        <div class="cards">
+          <h2>Card</h2>
+        </div>
+      </div>
+    </section> -->
+    <section id="services" class="container">
+      <div
+        data-aos="fade-up"
+        data-aos-offset="25"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+      >
+        <h2 class="display-4 text-center mt-5 mb-3">
+          Our Services
+        </h2>
+      </div>
+      <div class="row text-center">
+        <div
+          class="col-md-4 mb-4"
+          data-aos="fade-up"
+          data-aos-offset="25"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+        >
+          <div class="card h-100">
+            <img class="card-img-top" src="top-choices.jpg" alt="Design" />
+            <div class="card-body">
+              <h4 class="card-title">Top Choices</h4>
+              <p class="card-text">
+                We present to you curated choices of restaurants for your every
+                whim.
+              </p>
+            </div>
+            <div class="card-footer py-4">
+              <a href="#" class="btn btn-primary">Top Choices &raquo;</a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-md-4 mb-4"
+          data-aos="fade-up"
+          data-aos-offset="25"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+        >
+          <div class="card h-100">
+            <img class="card-img-top" src="booking.jpg" alt="Development" />
+            <div class="card-body">
+              <h4 class="card-title">Book a Table</h4>
+              <p class="card-text">
+                Planning for a family outing? Nervous for that elusive date?
+                We've got you covered.
+              </p>
+            </div>
+            <div class="card-footer py-4">
+              <a href="#" class="btn btn-primary">Book Now! &raquo;</a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-md-4 mb-4"
+          data-aos="fade-up"
+          data-aos-offset="25"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+        >
+          <div class="card h-100">
+            <img class="card-img-top" src="./mem.jpg" alt="Analytics" />
+            <div class="card-body">
+              <h4 class="card-title">Food Mania Membership</h4>
+              <p class="card-text">
+                Become our exclusive VIP member for a one time fee. Get faster
+                services and bigger discounts!
+              </p>
+            </div>
+            <div class="card-footer py-4">
+              <a href="#" class="btn btn-primary">Join Now! &raquo;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="container">
+      <div
+        data-aos="fade-up"
+        data-aos-offset="25"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+      >
+        <h2 class="display-4 text-center mt-5 mb-3">
+          Our Services
+        </h2>
+      </div>
+      <div class="row text-center">
+        <div
+          class="col-md-4 mb-4"
+          data-aos="fade-up"
+          data-aos-offset="25"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+        >
+          <div class="card h-100">
+            <img class="card-img-top" src="top-choices.jpg" alt="Design" />
+            <div class="card-body">
+              <h4 class="card-title">Top Choices</h4>
+              <p class="card-text">
+                We present to you curated choices of restaurants for your every
+                whim.
+              </p>
+            </div>
+            <div class="card-footer py-4">
+              <a href="#" class="btn btn-primary">Top Choices &raquo;</a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-md-4 mb-4"
+          data-aos="fade-up"
+          data-aos-offset="25"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+        >
+          <div class="card h-100">
+            <img class="card-img-top" src="booking.jpg" alt="Development" />
+            <div class="card-body">
+              <h4 class="card-title">Book a Table</h4>
+              <p class="card-text">
+                Planning for a family outing? Nervous for that elusive date?
+                We've got you covered.
+              </p>
+            </div>
+            <div class="card-footer py-4">
+              <a href="#" class="btn btn-primary">Book Now! &raquo;</a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-md-4 mb-4"
+          data-aos="fade-up"
+          data-aos-offset="25"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+        >
+          <div class="card h-100">
+            <img class="card-img-top" src="./mem.jpg" alt="Analytics" />
+            <div class="card-body">
+              <h4 class="card-title">Food Mania Membership</h4>
+              <p class="card-text">
+                Become our exclusive VIP member for a one time fee. Get faster
+                services and bigger discounts!
+              </p>
+            </div>
+            <div class="card-footer py-4">
+              <a href="#" class="btn btn-primary">Join Now! &raquo;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="container">
+      <div
+        data-aos="fade-up"
+        data-aos-offset="25"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+      >
+        <h2 class="display-4 text-center mt-5 mb-3">
+          Our Services
+        </h2>
+      </div>
+      <div class="row text-center">
+        <div
+          class="col-md-4 mb-4"
+          data-aos="fade-up"
+          data-aos-offset="25"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+        >
+          <div class="card h-100">
+            <img class="card-img-top" src="top-choices.jpg" alt="Design" />
+            <div class="card-body">
+              <h4 class="card-title">Top Choices</h4>
+              <p class="card-text">
+                We present to you curated choices of restaurants for your every
+                whim.
+              </p>
+            </div>
+            <div class="card-footer py-4">
+              <a href="#" class="btn btn-primary">Top Choices &raquo;</a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-md-4 mb-4"
+          data-aos="fade-up"
+          data-aos-offset="25"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+        >
+          <div class="card h-100">
+            <img class="card-img-top" src="booking.jpg" alt="Development" />
+            <div class="card-body">
+              <h4 class="card-title">Book a Table</h4>
+              <p class="card-text">
+                Planning for a family outing? Nervous for that elusive date?
+                We've got you covered.
+              </p>
+            </div>
+            <div class="card-footer py-4">
+              <a href="#" class="btn btn-primary">Book Now! &raquo;</a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-md-4 mb-4"
+          data-aos="fade-up"
+          data-aos-offset="25"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+        >
+          <div class="card h-100">
+            <img class="card-img-top" src="./mem.jpg" alt="Analytics" />
+            <div class="card-body">
+              <h4 class="card-title">Food Mania Membership</h4>
+              <p class="card-text">
+                Become our exclusive VIP member for a one time fee. Get faster
+                services and bigger discounts!
+              </p>
+            </div>
+            <div class="card-footer py-4">
+              <a href="#" class="btn btn-primary">Join Now! &raquo;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="container">
+        <div class="row text-center text-xs-center text-sm-left text-md-left">
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h5>Quick links</h5>
+            <ul class="list-unstyled quick-links">
+              <li>
+                <a href="#"><i class="fa fa-angle-double-right"></i>Home</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-angle-double-right"></i>About</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-angle-double-right"></i>FAQ</a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-angle-double-right"></i>Get Started</a
+                >
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-angle-double-right"></i>Videos</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h5>Quick links</h5>
+            <ul class="list-unstyled quick-links">
+              <li>
+                <a href="#"><i class="fa fa-angle-double-right"></i>Home</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-angle-double-right"></i>About</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-angle-double-right"></i>FAQ</a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-angle-double-right"></i>Get Started</a
+                >
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-angle-double-right"></i>Videos</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h5>Quick links</h5>
+            <ul class="list-unstyled quick-links">
+              <li>
+                <a href="#"><i class="fa fa-angle-double-right"></i>Home</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-angle-double-right"></i>About</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-angle-double-right"></i>FAQ</a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-angle-double-right"></i>Get Started</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://wwwe.sunlimetech.com"
+                  title="Design and developed by"
+                  ><i class="fa fa-angle-double-right"></i>Imprint</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+            <ul class="list-unstyled list-inline social text-center">
+              <li class="list-inline-item">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fa fa-instagram"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
+              </li>
+            </ul>
+          </div>
+          <hr />
+        </div>
+        <div class="row">
+          <div
+            class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white"
+          >
+            <p>
+              <u><a href="#">Food Delivery</a></u>
+              is a project done for Internet and Web Programming.
+            </p>
+            <p class="h6">
+              © All right Reserved<a
+                class="text-green ml-2"
+                href="#"
+                target="_blank"
+                >Food Delivery</a
+              >
+            </p>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </section>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./App.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
