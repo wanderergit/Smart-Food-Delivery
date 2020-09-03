@@ -1,0 +1,79 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+.homemade,
+.restaurant {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  transition: all 0.5s;
+  margin: 0px;
+  padding: 0px;
+}
+
+.homemade,
+.restaurant {
+  flex: 1.2;
+}
+
+.rtext,
+.htext {
+  z-index: 1;
+  position: relative;
+}
+.rtext a:link,
+.htext a:link,
+.rtext a:visited,
+.htext a:visited,
+.rtext a:hover,
+.htext a:hover,
+.rtext a:active,
+.htext a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.rtext h1 {
+  color: black;
+  background-color: white;
+}
+
+.htext h1 {
+  color: white;
+  background-color: black;
+}
+
+.rtext h1,
+.htext h1 {
+  position: relative;
+  padding: 12px 32px;
+  opacity: 0.8;
+  font-size: 2.5em;
+  font-weight: bolder;
+  mix-blend-mode: multiply;
+  font-family: georgia;
+}
+
+.homemade {
+  background: url(homemade.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.restaurant {
+  background: url(restaurant.png);
+  background-position: center;
+  background-size: cover;
+}
