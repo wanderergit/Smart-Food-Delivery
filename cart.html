@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-social/bootstrap-social.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Cart</title>
+  </head>
+  <body>
+    <!--Section: Block Content-->
+    <body class="skin-light">
+      <!--Main Navigation-->
+      <header>
+        <!-- Navbar -->
+        <nav
+          class="navbar navbar-expand-md navbar-light fixed-top scrolling-navbar"
+        >
+          <div class="container-fluid">
+            <!-- Brand -->
+            <a class="navbar-brand" href="https://mdbecommerce.com/">
+              <i class="fab fa-mdb fa-3x" alt="mdb logo"></i>
+            </a>
+            <!-- Collapse button -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#basicExampleNav"
+              aria-controls="basicExampleNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="basicExampleNav">
+              <!-- Right -->
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown dropdown-hover">
+                  <a
+                    class="nav-link waves-effect cart"
+                    id="navbarDropdownMenuLink3"
+                    data-toggle="dropdown"
+                  >
+                    <span class="badge badge-pill red"></span>
+                    <i class="fas fa-shopping-cart pl-0"></i>
+                  </a>
+                  <div
+                    id="dropdown-cart"
+                    class="dropdown-menu dropdown-menu-right p-3"
+                  ></div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle waves-effect"
+                    id="navbarDropdownMenuLink3"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="true"
+                  >
+                    <i class="united kingdom flag m-0"></i>
+                  </a>
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <a class="dropdown-item" href="#!">Favourites</a>
+                    <a class="dropdown-item" href="#!">Past Orders</a>
+                    <a class="dropdown-item" href="./login.html">Logout</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a href="./homemade.html" class="nav-link waves-effect">
+                    Homemade
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="./index.html" class="nav-link waves-effect">
+                    Restaurants
+                  </a>
+                </li>
+                <li class="nav-item pl-2 mb-2 mb-md-0">
+                  <a
+                    href="#!"
+                    type="button"
+                    class="btn btn-outline-info btn-md btn-rounded btn-navbar waves-effect waves-light"
+                    >Check Out</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- Links -->
+          </div>
+        </nav>
+        <!-- Navbar -->
+        <div class="jumbotron color-grey-light mt-70">
+          <div class="d-flex align-items-center h-100">
+            <div class="container text-center py-5">
+              <h3 class="mb-0">My Cart</h3>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--Main Navigation-->
+    </body>
+    <!--Section: Block Content-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./cart.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </body>
+</html>
